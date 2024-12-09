@@ -1,19 +1,19 @@
 export const environment = {
-  production: true,
+  production: false,
   t2y12PruGU9wUtEGzBJfolMIgK: 'CHANGEIT',
   VERSION: require('../../package.json').version,
-  remoteConfig: true, 
+  remoteConfig: false,
   remoteConfigUrl: './design-studio-config.json',
-  apiUrl: 'CHANGEIT',
-  widgetBaseUrl: 'CHANGEIT',
-  dashboardBaseUrl: 'CHANGEIT',
-  whatsappTemplatesBaseUrl: 'CHANGEIT',
+  apiUrl: 'http://localhost:3000/',
+  widgetBaseUrl: 'http://localhost:4200/',
+  dashboardBaseUrl: 'http://localhost:4300/',
+  whatsappTemplatesBaseUrl: 'http://localhost:3000/',
   wsUrl: 'ws://localhost:3000/',
   uploadEngine: 'native',
   baseImageUrl: 'CHANGEIT',
   logLevel: 'error',
   aiModels: 'CHANGEIT',
-  storage_prefix: "CHANGEIT",
+  storage_prefix: 'cds_sv6',
   firebaseConfig: {
     apiKey: 'CHANGEIT',
     authDomain: 'CHANGEIT',
@@ -22,6 +22,6 @@ export const environment = {
     storageBucket: 'CHANGEIT',
     messagingSenderId: 'CHANGEIT',
     appId: 'CHANGEIT',
-    vapidKey: 'CHANGEIT'
-  }
+    vapidKey: 'CHANGEIT',
+  },
 };
